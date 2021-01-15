@@ -1,0 +1,150 @@
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+
+
+
+body {
+    margin: 0;
+    font-family: Ubuntu,sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin: 20px;
+    
+    }
+
+.kopstart {
+    border: 1px solid #210F0F;
+    background-color: white;
+    padding: inherit;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    color: rgb(4,0,116)
+}
+
+h1,
+h2,
+h3,
+h4
+ {
+    padding: 10px;
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+}
+.protocol {
+    display: inline-block;
+    margin: 10px;
+}
+
+blockquote {
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style:italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
+
+.table {
+    column-count: 3;
+    display: inline-block;
+}
+
+.contact-box {
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  transform: translate (-50% -50%);
+  position: left;
+  margin: 10px;
+  padding: 20px
+  }
+
+  form {
+    margin: 35px;
+  }
+
+  .input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+
+  }
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.oefenprogramma {
+    background-color: white;
+    padding: inherit;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    color: rgb(4,0,116)
+}
